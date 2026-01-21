@@ -625,11 +625,16 @@ void Player::teleportTo(int mapId, float x, float y)
 
 void Player::broadcastTeleport()
 {
-    GP_Server_UnitTeleport packet;
+    // Use GP_Server_UnitSpline with m_slide=true for instant teleport
+    // The client binary does NOT have a handler for GP_Server_UnitTeleport,
+    // but GP_Server_UnitSpline with slide=true achieves instant position change
+    GP_Server_UnitSpline packet;
     packet.m_guid = static_cast<uint32_t>(getGuid());
-    packet.m_newX = getX();
-    packet.m_newY = getY();
-    packet.m_newOri = getOrientation();
+    packet.m_startX = getX();
+    packet.m_startY = getY();
+    packet.m_spline.push_back({getX(), getY()});  // Single point = instant position set
+    packet.m_slide = true;   // Slide mode = instant/forced movement (no walk animation)
+    packet.m_silent = false;
 
     StlBuffer buf;
     uint16_t opcode = packet.getOpcode();
@@ -657,17 +662,9 @@ void Player::updateOrientationFromMovement(float destX, float destY)
 
     setOrientation(angle);
 
-    // Broadcast orientation change to visible players
-    GP_Server_UnitOrientation packet;
-    packet.m_guid = static_cast<uint32_t>(getGuid());
-    packet.m_newOri = angle;
-
-    StlBuffer buf;
-    uint16_t opcode = packet.getOpcode();
-    buf << opcode;
-    packet.pack(buf);
-
-    sWorldManager.broadcastToVisible(this, buf, false);
+    // Note: GP_Server_UnitOrientation is NOT supported by the client binary.
+    // The client calculates orientation from movement spline direction automatically.
+    // Orientation is synced when the full GP_Server_Player packet is sent (on spawn/respawn).
 }
 
 // ============================================================================

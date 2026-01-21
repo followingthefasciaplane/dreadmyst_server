@@ -244,22 +244,17 @@ void QuestManager::refreshNpcGossipStatuses(Player* player) const
     if (!player)
         return;
 
+    // NOTE: GP_Server_ObjectVariable is NOT supported by the client binary.
+    // Instead, we resend the full NPC packet which includes DynGossipStatus.
+    // WorldManager::sendNpcTo() already includes the gossip status from getGossipStatus().
     auto npcs = sWorldManager.getNpcsOnMap(player->getMapId());
     for (Npc* npc : npcs)
     {
         if (!npc || !npc->isQuestGiver())
             continue;
 
-        GP_Server_ObjectVariable packet;
-        packet.m_guid = static_cast<uint32_t>(npc->getGuid());
-        packet.m_variableId = static_cast<int32_t>(ObjDefines::Variable::DynGossipStatus);
-        packet.m_value = static_cast<int32_t>(getGossipStatus(player, npc));
-
-        StlBuffer buf;
-        uint16_t opcode = packet.getOpcode();
-        buf << opcode;
-        packet.pack(buf);
-        player->sendPacket(buf);
+        // Resend full NPC packet to this player - includes updated gossip status
+        sWorldManager.sendNpcTo(player, npc);
     }
 }
 

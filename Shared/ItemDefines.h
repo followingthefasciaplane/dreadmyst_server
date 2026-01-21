@@ -74,6 +74,17 @@ namespace ItemDefines
         Legendary = 5,  // Orange
     };
 
+    // Item flags (bitmask)
+    namespace ItemFlags
+    {
+        constexpr int ItemFlag_Soulbound = 0x0001;
+        constexpr int ItemFlag_QuestItem = 0x0002;
+        constexpr int ItemFlag_Skillbook = 0x0004;
+        constexpr int ItemFlag_Unique = 0x0008;
+        constexpr int ItemFlag_Stackable = 0x0010;
+        constexpr int ItemFlag_Consumable = 0x0020;
+    }
+
     // Static item IDs - hardcoded items with special behavior
     namespace StaticItems
     {
@@ -137,6 +148,7 @@ namespace ItemDefines
             int m_enchant;
             int m_enchantLvl;
         };
+        bool m_soulbound = false; // Whether item is bound to player
 
         ItemDefinition() { m_affix1 = 0; m_affix2 = 0; m_enchant = 0; }
         ItemDefinition(int id) : m_itemId(id) { m_affix1 = 0; m_affix2 = 0; m_enchant = 0; }

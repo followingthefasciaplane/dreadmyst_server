@@ -728,3 +728,12 @@ struct GP_Client_SetToolbarSlot : public GamePacket
     void pack(StlBuffer& buf) const override { buf << m_slotIndex << m_spellId; }
     void unpack(StlBuffer& buf) override { buf >> m_slotIndex >> m_spellId; }
 };
+
+struct GP_Client_ChangeChannels : public GamePacket
+{
+    uint32_t m_channelId = 0;
+
+    uint16_t getOpcode() const override { return Opcode::Client_ChangeChannels; }
+    void pack(StlBuffer& buf) const override { buf << m_channelId; }
+    void unpack(StlBuffer& buf) override { buf >> m_channelId; }
+};

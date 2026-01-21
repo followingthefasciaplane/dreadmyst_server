@@ -863,3 +863,45 @@ void WorldManager::broadcastNpcDespawn(Npc* npc)
         sendDestroyTo(player, guid);
     }
 }
+
+// ============================================================================
+// Entity Update Broadcasts (for variable changes)
+// The client does NOT support GP_Server_ObjectVariable, so we resend the
+// full entity packet to synchronize variable changes like IsDead, flags, etc.
+// ============================================================================
+
+void WorldManager::broadcastPlayerUpdate(Player* player)
+{
+    if (!player)
+        return;
+
+    // Resend full player packet to all viewers (includes updated variables)
+    std::vector<Player*> playersOnMap = getPlayersOnMap(player->getMapId());
+
+    for (Player* viewer : playersOnMap)
+    {
+        // Send to self and all other players
+        sendPlayerTo(viewer, player);
+    }
+
+    LOG_DEBUG("WorldManager: Broadcast player '{}' update to {} viewers",
+              player->getName(), playersOnMap.size());
+}
+
+void WorldManager::broadcastNpcUpdate(Npc* npc)
+{
+    if (!npc || !npc->isSpawned())
+        return;
+
+    // Resend full NPC packet to all players on map (includes updated variables)
+    int mapId = npc->getMapId();
+    std::vector<Player*> playersOnMap = getPlayersOnMap(mapId);
+
+    for (Player* player : playersOnMap)
+    {
+        sendNpcTo(player, npc);
+    }
+
+    LOG_DEBUG("WorldManager: Broadcast NPC '{}' update to {} players",
+              npc->getName(), playersOnMap.size());
+}

@@ -50,6 +50,20 @@ public:
     const uint8_t* data() const { return m_data.data(); }
     uint8_t* data() { return m_data.data(); }
 
+    // Raw data write (for loading from file)
+    void write(const char* data, size_t size) {
+        m_data.insert(m_data.end(), data, data + size);
+    }
+
+    // Reset read position to beginning
+    void resetRead() { m_readPos = 0; }
+
+    // Check if at end of buffer
+    bool isEof() const { return m_readPos >= m_data.size(); }
+
+    // Get current read position
+    size_t readPos() const { return m_readPos; }
+
     // For packet building - prepends size header
     StlBuffer& build(StlBuffer&& buf);
 

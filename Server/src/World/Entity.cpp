@@ -191,28 +191,35 @@ void Entity::setDead(bool dead)
 
 void Entity::broadcastVariable(ObjDefines::Variable var, int32_t value)
 {
-    // Build the variable update packet
-    GP_Server_ObjectVariable packet;
-    packet.m_guid = static_cast<uint32_t>(getGuid());
-    packet.m_variableId = static_cast<int32_t>(var);
-    packet.m_value = value;
+    // NOTE: GP_Server_ObjectVariable is NOT supported by the client binary.
+    // The client tracks Health/Mana changes internally from GP_Server_CombatMsg.
+    // For critical state changes, we resend the full entity packet instead.
 
-    StlBuffer buf;
-    uint16_t opcode = packet.getOpcode();
-    buf << opcode;
-    packet.pack(buf);
+    (void)value;  // Value is already set via setVariable() before this call
 
-    // If this is a Player, send to self and broadcast to visible
+    // Health/Mana updates: Client tracks these from CombatMsg damage/heal amounts
+    // No need to broadcast - the client updates its internal state from combat messages
+    if (var == ObjDefines::Variable::Health ||
+        var == ObjDefines::Variable::Mana ||
+        var == ObjDefines::Variable::MaxHealth ||
+        var == ObjDefines::Variable::MaxMana)
+    {
+        // Skip - client handles these via GP_Server_CombatMsg
+        return;
+    }
+
+    // For critical state changes (IsDead, dynamic flags, etc.),
+    // resend the full entity packet to ensure client is in sync
     if (getType() == MutualObject::Type::Player)
     {
         ::Player* selfPlayer = static_cast<::Player*>(this);
-        selfPlayer->sendPacket(buf);
-        sWorldManager.broadcastToVisible(selfPlayer, buf, false);
+        // Resend full player data to all viewers (includes updated variables)
+        sWorldManager.broadcastPlayerUpdate(selfPlayer);
     }
-    // NPCs: broadcast to all players on the same map
     else if (getType() == MutualObject::Type::Npc)
     {
         ::Npc* selfNpc = static_cast<::Npc*>(this);
-        sWorldManager.broadcastToMap(selfNpc->getMapId(), buf);
+        // Resend full NPC data to all players on the map
+        sWorldManager.broadcastNpcUpdate(selfNpc);
     }
 }

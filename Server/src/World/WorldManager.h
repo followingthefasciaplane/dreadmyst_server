@@ -116,6 +116,11 @@ public:
     // Broadcast NPC despawn to all players on map
     void broadcastNpcDespawn(Npc* npc);
 
+    // Broadcast entity updates (resend full entity packet for variable changes)
+    // Used when GP_Server_ObjectVariable is not supported by client
+    void broadcastPlayerUpdate(Player* player);
+    void broadcastNpcUpdate(Npc* npc);
+
 private:
     WorldManager() = default;
     ~WorldManager() = default;

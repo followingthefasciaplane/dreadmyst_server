@@ -4,6 +4,10 @@
 
 namespace AccountDefines
 {
+    // Input validation limits
+    constexpr int MaxUserLength = 32;
+    constexpr int MaxPassLength = 64;
+
     // Authentication result codes
     enum class AuthenticateResult : uint8_t
     {

@@ -159,6 +159,7 @@ namespace Opcode
     constexpr uint16_t Client_RecoverMailLoot = 421;
     constexpr uint16_t Client_ReqTheoreticalSpell = 422;
     constexpr uint16_t Client_SetToolbarSlot = 423;
+    constexpr uint16_t Client_ChangeChannels = 424;
 
     constexpr uint16_t MaxOpcode = 500;
 }

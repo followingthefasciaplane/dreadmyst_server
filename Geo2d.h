@@ -46,6 +46,12 @@ namespace Geo2d
             float dy = y - other.y;
             return std::sqrt(dx * dx + dy * dy);
         }
+
+        // Check if the vector is effectively zero/null
+        bool isNull() const { return x == 0.0f && y == 0.0f; }
+
+        // Reset to zero
+        void clear() { x = 0.0f; y = 0.0f; }
     };
 
     inline float distance(const Vector2& a, const Vector2& b)
@@ -104,6 +110,18 @@ namespace Geo2d
         outX = cellId % mapWidth;
         outY = cellId / mapWidth;
     }
+
+    // Move point (x1,y1) towards (x2,y2) by a given distance
+    // Returns a new position that is 'distance' units closer to the target
+    inline Vector2 extrude(float x1, float y1, float x2, float y2, float dist)
+    {
+        float dx = x2 - x1;
+        float dy = y2 - y1;
+        float len = std::sqrt(dx * dx + dy * dy);
+        if (len < 0.0001f) return {x1, y1};
+        float ratio = dist / len;
+        return {x1 + dx * ratio, y1 + dy * ratio};
+    }
 }
 
 namespace Util
@@ -111,17 +129,25 @@ namespace Util
 
 struct GeoBox
 {
-    float left = 0, top = 0, right = 0, bottom = 0;
+    // Support both naming conventions: left/top/right/bottom and x/y/w/h
+    union { float left; float x; };
+    union { float top; float y; };
+    union { float w; float _width; };
+    union { float h; float _height; };
 
-    GeoBox() = default;
-    GeoBox(float l, float t, float r, float b) : left(l), top(t), right(r), bottom(b) {}
+    // Computed right/bottom based on x,y,w,h
+    float right() const { return x + w; }
+    float bottom() const { return y + h; }
 
-    float width() const { return right - left; }
-    float height() const { return bottom - top; }
+    GeoBox() : x(0), y(0), w(0), h(0) {}
+    GeoBox(float x_, float y_, float w_, float h_) : x(x_), y(y_), w(w_), h(h_) {}
 
-    bool contains(float x, float y) const
+    float width() const { return w; }
+    float height() const { return h; }
+
+    bool contains(float px, float py) const
     {
-        return x >= left && x <= right && y >= top && y <= bottom;
+        return px >= x && px <= x + w && py >= y && py <= y + h;
     }
 
     bool contains(const sf::Vector2f& p) const
@@ -131,17 +157,17 @@ struct GeoBox
 
     bool intersects(const GeoBox& other) const
     {
-        return !(left > other.right || right < other.left ||
-                 top > other.bottom || bottom < other.top);
+        return !(x > other.x + other.w || x + w < other.x ||
+                 y > other.y + other.h || y + h < other.y);
     }
 };
 
 // Alias for compatibility with code using GeoBox2d
 using GeoBox2d = GeoBox;
 
-inline bool cordsInBox(float x, float y, const GeoBox& box)
+inline bool cordsInBox(float px, float py, const GeoBox& box)
 {
-    return box.contains(x, y);
+    return box.contains(px, py);
 }
 
 inline bool cordsInBox(const sf::Vector2f& point, const GeoBox& box)

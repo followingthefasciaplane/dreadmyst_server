@@ -86,6 +86,19 @@ public:
 
     bool isWalkable(int x, int y) const;
 
+    // Static isometric coordinate conversion: world position -> screen position
+    // This is used by the rendering system for all world-to-screen calculations
+    template<typename Vec2>
+    static Vec2 computeRawScreenPosition(const Vec2& worldPos)
+    {
+        // Standard isometric transformation: diamond-shaped grid
+        // x_screen = (world_x - world_y) * cell_half_width
+        // y_screen = (world_x + world_y) * cell_half_height
+        float screenX = (worldPos.x - worldPos.y) * (Defines::BaseCellWidth / 2);
+        float screenY = (worldPos.x + worldPos.y) * (Defines::BaseCellHeight / 2);
+        return Vec2(screenX, screenY);
+    }
+
     // Virtual methods for derived classes to override
     virtual void startedLoading() {}
     virtual void finishedLoading() {}

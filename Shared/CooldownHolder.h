@@ -38,6 +38,24 @@ public:
     void clearCooldown(int spellId) { m_cooldowns.erase(spellId); }
     void clearAll() { m_cooldowns.clear(); }
 
+    // Update cooldowns - removes expired entries (called each frame)
+    void updateCooldowns(__time64_t /*currentTimeMs*/)
+    {
+        // Remove expired cooldowns
+        for (auto it = m_cooldowns.begin(); it != m_cooldowns.end(); )
+        {
+            if (clock() >= it->second)
+            {
+                m_cooldownStarts.erase(it->first);
+                it = m_cooldowns.erase(it);
+            }
+            else
+            {
+                ++it;
+            }
+        }
+    }
+
     // Get cooldown as (startTime, endTime) pair for UI display
     std::pair<__time64_t, __time64_t> getCooldown(int spellId) const
     {
