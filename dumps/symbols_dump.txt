@@ -1,0 +1,658 @@
+nth paddr      vaddr      bind type size lib                                   name
+-----------------------------------------------------------------------------------
+1   0x00227fc4 0x006297c4 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::VertexArray::~destructor(void)
+2   0x00227fc8 0x006297c8 NONE FUNC 0    sfml-graphics-2.dll                   private virtual: void __thiscall sf::Sprite::draw(class sf::RenderTarget &, class sf::RenderStates)const
+3   0x00227fcc 0x006297cc NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderStates::constructor(class sf::Texture const *)
+4   0x00227fd0 0x006297d0 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Vertex & __thiscall sf::VertexArray::operator[](unsigned int)
+5   0x00227fd4 0x006297d4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::VertexArray::constructor(enum sf::PrimitiveType, unsigned int)
+6   0x00227fd8 0x006297d8 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Texture::isSmooth(void)const
+7   0x00227fdc 0x006297dc NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shape::setOutlineColor(class sf::Color const &)
+8   0x00227fe0 0x006297e0 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shape::setOutlineThickness(float)
+9   0x00227fe4 0x006297e4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::CircleShape::setRadius(float)
+10  0x00227fe8 0x006297e8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::CircleShape::constructor(float, unsigned int)
+11  0x00227fec 0x006297ec NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Color const & __thiscall sf::Sprite::getColor(void)const
+12  0x00227ff0 0x006297f0 NONE FUNC 0    sfml-graphics-2.dll                   bool __cdecl sf::operator==(class sf::Color const &, class sf::Color const &)
+13  0x00227ff4 0x006297f4 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Color const & __thiscall sf::Text::getFillColor(void)const
+14  0x00227ff8 0x006297f8 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Color const & __thiscall sf::Text::getOutlineColor(void)const
+15  0x00227ffc 0x006297fc NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Cyan
+16  0x00228000 0x00629800 NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Blue
+17  0x00228004 0x00629804 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Texture const * __thiscall sf::Sprite::getTexture(void)const
+18  0x00228008 0x00629808 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setOutlineColor(class sf::Color const &)
+19  0x0022800c 0x0062980c NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Black
+20  0x00228010 0x00629810 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setOutlineThickness(float)
+21  0x00228014 0x00629814 NONE FUNC 0    sfml-graphics-2.dll                   struct sf::BlendMode const sf::BlendAlpha
+22  0x00228018 0x00629818 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::BlendMode::constructor(enum sf::BlendMode::Factor, enum sf::BlendMode::Factor, enum sf::BlendMode::Equation)
+23  0x0022801c 0x0062981c NONE FUNC 0    sfml-graphics-2.dll                   struct sf::BlendMode const sf::BlendNone
+24  0x00228020 0x00629820 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Drawable::constructor(void)
+25  0x00228024 0x00629824 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Vertex::constructor(void)
+26  0x00228028 0x00629828 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTarget::draw(class sf::Vertex const *, unsigned int, enum sf::PrimitiveType, class sf::RenderStates const &)
+27  0x0022802c 0x0062982c NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::Transformable::~destructor(void)
+28  0x00228030 0x00629830 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::constructor(void)
+29  0x00228034 0x00629834 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::Drawable::~destructor(void)
+30  0x00228038 0x00629838 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::CircleShape::~destructor(void)
+31  0x0022803c 0x0062983c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shader::setUniform(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &, float)
+32  0x00228040 0x00629840 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderStates::constructor(void)
+33  0x00228044 0x00629844 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::BlendMode::constructor(void)
+34  0x00228048 0x00629848 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setPosition(float, float)
+35  0x0022804c 0x0062984c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::BlendMode::constructor(enum sf::BlendMode::Factor, enum sf::BlendMode::Factor, enum sf::BlendMode::Equation, enum sf::BlendMode::Factor, enum sf::BlendMode::Factor, enum sf::BlendMode::Equation)
+36  0x00228050 0x00629850 NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Transparent
+37  0x00228054 0x00629854 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Image::saveToFile(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &)const
+38  0x00228058 0x00629858 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Vector2<float> const & __thiscall sf::Transformable::getScale(void)const
+39  0x0022805c 0x0062985c NONE FUNC 0    sfml-graphics-2.dll                   struct sf::BlendMode const sf::BlendMultiply
+40  0x00228060 0x00629860 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::constructor(class sf::Texture const &, class sf::Rect<int> const &)
+41  0x00228064 0x00629864 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setCharacterSize(unsigned int)
+42  0x00228068 0x00629868 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::RectangleShape::~destructor(void)
+43  0x0022806c 0x0062986c NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::Sprite::~destructor(void)
+44  0x00228070 0x00629870 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Image::loadFromFile(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &)
+45  0x00228074 0x00629874 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Image::constructor(void)
+46  0x00228078 0x00629878 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::constructor(void)
+47  0x0022807c 0x0062987c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setFont(class sf::Font const &)
+48  0x00228080 0x00629880 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Texture::setSmooth(bool)
+49  0x00228084 0x00629884 NONE FUNC 0    sfml-graphics-2.dll                   public: unsigned int __thiscall sf::Text::getStyle(void)const
+50  0x00228088 0x00629888 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::setTextureRect(class sf::Rect<int> const &)
+51  0x0022808c 0x0062988c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::constructor(class sf::String const &, class sf::Font const &, unsigned int)
+52  0x00228090 0x00629890 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Glyph const & __thiscall sf::Font::getGlyph(unsigned int, unsigned int, bool, float)const
+53  0x00228094 0x00629894 NONE FUNC 0    sfml-graphics-2.dll                   public: float __thiscall sf::Font::getKerning(unsigned int, unsigned int, unsigned int)const
+54  0x00228098 0x00629898 NONE FUNC 0    sfml-graphics-2.dll                   private virtual: void __thiscall sf::Text::draw(class sf::RenderTarget &, class sf::RenderStates)const
+55  0x0022809c 0x0062989c NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::Text::~destructor(void)
+56  0x002280a0 0x006298a0 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setLineSpacing(float)
+57  0x002280a4 0x006298a4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setScale(class sf::Vector2<float> const &)
+58  0x002280a8 0x006298a8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::constructor(class sf::Texture const &)
+59  0x002280ac 0x006298ac NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Rect<float> __thiscall sf::Text::getLocalBounds(void)
+60  0x002280b0 0x006298b0 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setOrigin(float, float)
+61  0x002280b4 0x006298b4 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Rect<float> __thiscall sf::Sprite::getGlobalBounds(void)
+62  0x002280b8 0x006298b8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Color::constructor(unsigned int)
+63  0x002280bc 0x006298bc NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::White
+64  0x002280c0 0x006298c0 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setScale(float, float)
+65  0x002280c4 0x006298c4 NONE FUNC 0    sfml-graphics-2.dll                   bool __cdecl sf::operator!=(class sf::Color const &, class sf::Color const &)
+66  0x002280c8 0x006298c8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::setColor(class sf::Color const &)
+67  0x002280cc 0x006298cc NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderStates::constructor(class sf::Shader const *)
+68  0x002280d0 0x006298d0 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Texture::setRepeated(bool)
+69  0x002280d4 0x006298d4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Font::~destructor(void)
+70  0x002280d8 0x006298d8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setOrigin(class sf::Vector2<float> const &)
+71  0x002280dc 0x006298dc NONE FUNC 0    sfml-graphics-2.dll                   public: static bool __cdecl sf::Shader::isAvailable(void)
+72  0x002280e0 0x006298e0 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::ConvexShape::~destructor(void)
+73  0x002280e4 0x006298e4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::ConvexShape::setPoint(unsigned int, class sf::Vector2<float> const &)
+74  0x002280e8 0x006298e8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::ConvexShape::setPointCount(unsigned int)
+75  0x002280ec 0x006298ec NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::ConvexShape::constructor(unsigned int)
+76  0x002280f0 0x006298f0 NONE FUNC 0    sfml-graphics-2.dll                   struct sf::BlendMode const sf::BlendAdd
+77  0x002280f4 0x006298f4 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Font::constructor(void)
+78  0x002280f8 0x006298f8 NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Red
+79  0x002280fc 0x006298fc NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderStates::constructor(struct sf::BlendMode const &)
+80  0x00228100 0x00629900 NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Green
+81  0x00228104 0x00629904 NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Yellow
+82  0x00228108 0x00629908 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shader::constructor(void)
+83  0x0022810c 0x0062990c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shader::~destructor(void)
+84  0x00228110 0x00629910 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setString(class sf::String const &)
+85  0x00228114 0x00629914 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &)
+86  0x00228118 0x00629918 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Shader::loadFromFile(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &, enum sf::Shader::Type)
+87  0x0022811c 0x0062991c NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Texture::loadFromMemory(void const *, unsigned int, class sf::Rect<int> const &)
+88  0x00228120 0x00629920 NONE FUNC 0    sfml-graphics-2.dll                   public: unsigned int __thiscall sf::Color::toInteger(void)const
+89  0x00228124 0x00629924 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::String const & __thiscall sf::Text::getString(void)const
+90  0x00228128 0x00629928 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)
+91  0x0022812c 0x0062992c NONE FUNC 0    sfml-graphics-2.dll                   class sf::Color const sf::Color::Magenta
+92  0x00228130 0x00629930 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::View::constructor(class sf::Rect<float> const &)
+93  0x00228134 0x00629934 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTarget::setView(class sf::View const &)
+94  0x00228138 0x00629938 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::RenderTexture::create(unsigned int, unsigned int, struct sf::ContextSettings const &)
+95  0x0022813c 0x0062993c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Transformable::setPosition(class sf::Vector2<float> const &)
+96  0x00228140 0x00629940 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Vector2<unsigned int> __thiscall sf::Texture::getSize(void)
+97  0x00228144 0x00629944 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::setTexture(class sf::Texture const &, bool)
+98  0x00228148 0x00629948 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Vector2<float> const & __thiscall sf::Transformable::getPosition(void)const
+99  0x0022814c 0x0062994c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Sprite::constructor(void)
+100 0x00228150 0x00629950 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Text::setFillColor(class sf::Color const &)
+101 0x00228154 0x00629954 NONE FUNC 0    sfml-graphics-2.dll                   public: bool __thiscall sf::Texture::loadFromFile(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &, class sf::Rect<int> const &)
+102 0x00228158 0x00629958 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Texture::~destructor(void)
+103 0x0022815c 0x0062995c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Texture::constructor(void)
+104 0x00228160 0x00629960 NONE FUNC 0    sfml-graphics-2.dll                   public: unsigned char const * __thiscall sf::Image::getPixelsPtr(void)const
+105 0x00228164 0x00629964 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Vector2<unsigned int> __thiscall sf::Image::getSize(void)
+106 0x00228168 0x00629968 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Image::~destructor(void)
+107 0x0022816c 0x0062996c NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Image __thiscall sf::Texture::copyToImage(void)
+108 0x00228170 0x00629970 NONE FUNC 0    sfml-graphics-2.dll                   class sf::RenderStates const sf::RenderStates::Default
+109 0x00228174 0x00629974 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Color::constructor(void)
+110 0x00228178 0x00629978 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &, class sf::RenderStates const &)
+111 0x0022817c 0x0062997c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RectangleShape::setSize(class sf::Vector2<float> const &)
+112 0x00228180 0x00629980 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shape::setTextureRect(class sf::Rect<int> const &)
+113 0x00228184 0x00629984 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Texture const & __thiscall sf::RenderTexture::getTexture(void)const
+114 0x00228188 0x00629988 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Shape::setTexture(class sf::Texture const *, bool)
+115 0x0022818c 0x0062998c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RectangleShape::constructor(class sf::Vector2<float> const &)
+116 0x00228190 0x00629990 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTexture::setSmooth(bool)
+117 0x00228194 0x00629994 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTexture::display(void)
+118 0x00228198 0x00629998 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::Color::constructor(unsigned char, unsigned char, unsigned char, unsigned char)
+119 0x0022819c 0x0062999c NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)
+120 0x002281a0 0x006299a0 NONE FUNC 0    sfml-graphics-2.dll                   public: unsigned int __thiscall sf::Text::getCharacterSize(void)const
+121 0x002281a4 0x006299a4 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::RenderTexture::~destructor(void)
+122 0x002281a8 0x006299a8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderTexture::constructor(void)
+123 0x002281ac 0x006299ac NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Rect<float> __thiscall sf::Text::getGlobalBounds(void)
+124 0x002281b0 0x006299b0 NONE FUNC 0    sfml-graphics-2.dll                   public virtual: void __thiscall sf::RenderWindow::~destructor(void)
+125 0x002281b4 0x006299b4 NONE FUNC 0    sfml-graphics-2.dll                   public: class sf::Font const * __thiscall sf::Text::getFont(void)const
+126 0x002281b8 0x006299b8 NONE FUNC 0    sfml-graphics-2.dll                   public: void __thiscall sf::RenderWindow::constructor(void)
+1   0x00228230 0x00629a30 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setMouseCursorVisible(bool)
+2   0x00228234 0x00629a34 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Context::~destructor(void)
+3   0x00228238 0x00629a38 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Context::constructor(void)
+4   0x0022823c 0x00629a3c NONE FUNC 0    sfml-window-2.dll                     public: struct HWND__ * __thiscall sf::Window::getSystemHandle(void)const
+5   0x00228240 0x00629a40 NONE FUNC 0    sfml-window-2.dll                     public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)
+6   0x00228244 0x00629a44 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setPosition(class sf::Vector2<int> const &)
+7   0x00228248 0x00629a48 NONE FUNC 0    sfml-window-2.dll                     public: class sf::Vector2<int> __thiscall sf::Window::getPosition(void)
+8   0x0022824c 0x00629a4c NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setIcon(unsigned int, unsigned int, unsigned char const *)
+9   0x00228250 0x00629a50 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setKeyRepeatEnabled(bool)
+10  0x00228254 0x00629a54 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setFramerateLimit(unsigned int)
+11  0x00228258 0x00629a58 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setVerticalSyncEnabled(bool)
+12  0x0022825c 0x00629a5c NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::create(class sf::VideoMode, class sf::String const &, unsigned int, struct sf::ContextSettings const &)
+13  0x00228260 0x00629a60 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::VideoMode::constructor(unsigned int, unsigned int, unsigned int)
+14  0x00228264 0x00629a64 NONE FUNC 0    sfml-window-2.dll                     public: static class sf::VideoMode __cdecl sf::VideoMode::getDesktopMode(void)
+15  0x00228268 0x00629a68 NONE FUNC 0    sfml-window-2.dll                     public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)
+16  0x0022826c 0x00629a6c NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::setMouseCursor(class sf::Cursor const &)
+17  0x00228270 0x00629a70 NONE FUNC 0    sfml-window-2.dll                     public: bool __thiscall sf::Cursor::loadFromPixels(unsigned char const *, class sf::Vector2<unsigned int>, class sf::Vector2<unsigned int>)
+18  0x00228274 0x00629a74 NONE FUNC 0    sfml-window-2.dll                     public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)
+19  0x00228278 0x00629a78 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Cursor::constructor(void)
+20  0x0022827c 0x00629a7c NONE FUNC 0    sfml-window-2.dll                     public: bool __thiscall sf::Window::pollEvent(class sf::Event &)
+21  0x00228280 0x00629a80 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::close(void)
+22  0x00228284 0x00629a84 NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Window::display(void)
+23  0x00228288 0x00629a88 NONE FUNC 0    sfml-window-2.dll                     public: bool __thiscall sf::Window::isOpen(void)const
+24  0x0022828c 0x00629a8c NONE FUNC 0    sfml-window-2.dll                     public: void __thiscall sf::Cursor::~destructor(void)
+1   0x002281f4 0x006299f4 NONE FUNC 0    sfml-system-2.dll                     bool __cdecl sf::operator!=(class sf::String const &, class sf::String const &)
+2   0x002281f8 0x006299f8 NONE FUNC 0    sfml-system-2.dll                     public: unsigned int __thiscall sf::String::find(class sf::String const &, unsigned int)const
+3   0x002281fc 0x006299fc NONE FUNC 0    sfml-system-2.dll                     public: bool __thiscall sf::String::isEmpty(void)const
+4   0x00228200 0x00629a00 NONE FUNC 0    sfml-system-2.dll                     public: void __thiscall sf::String::constructor(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &, class std::locale const &)
+5   0x00228204 0x00629a04 NONE FUNC 0    sfml-system-2.dll                     public: int __thiscall sf::Time::asMilliseconds(void)const
+6   0x00228208 0x00629a08 NONE FUNC 0    sfml-system-2.dll                     class sf::Time __cdecl sf::milliseconds(int)
+7   0x0022820c 0x00629a0c NONE FUNC 0    sfml-system-2.dll                     void __cdecl sf::sleep(class sf::Time)
+8   0x00228210 0x00629a10 NONE FUNC 0    sfml-system-2.dll                     public: float __thiscall sf::Time::asSeconds(void)const
+9   0x00228214 0x00629a14 NONE FUNC 0    sfml-system-2.dll                     class sf::Time __cdecl sf::seconds(float)
+10  0x00228218 0x00629a18 NONE FUNC 0    sfml-system-2.dll                     public: void __thiscall sf::Time::constructor(void)
+11  0x0022821c 0x00629a1c NONE FUNC 0    sfml-system-2.dll                     public: void __thiscall sf::Clock::constructor(void)
+12  0x00228220 0x00629a20 NONE FUNC 0    sfml-system-2.dll                     public: class sf::Time __thiscall sf::Clock::restart(void)
+13  0x00228224 0x00629a24 NONE FUNC 0    sfml-system-2.dll                     public: void __thiscall sf::String::constructor(char const *, class std::locale const &)
+14  0x00228228 0x00629a28 NONE FUNC 0    sfml-system-2.dll                     public: void __thiscall sf::String::~destructor(void)
+1   0x00227f4c 0x0062974c NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::Sound::stop(void)
+2   0x00227f50 0x00629750 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundSource::setPosition(class sf::Vector3<float> const &)
+3   0x00227f54 0x00629754 NONE FUNC 0    sfml-audio-2.dll                      protected virtual: long long(__int64) __thiscall sf::Music::onLoop(void)
+4   0x00227f58 0x00629758 NONE FUNC 0    sfml-audio-2.dll                      protected virtual: void __thiscall sf::Music::onSeek(class sf::Time)
+5   0x00227f5c 0x0062975c NONE FUNC 0    sfml-audio-2.dll                      protected virtual: bool __thiscall sf::Music::onGetData(struct sf::SoundStream::Chunk &)
+6   0x00227f60 0x00629760 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::SoundStream::pause(void)
+7   0x00227f64 0x00629764 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundBuffer::~destructor(void)
+8   0x00227f68 0x00629768 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::Music::~destructor(void)
+9   0x00227f6c 0x0062976c NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::Sound::constructor(void)
+10  0x00227f70 0x00629770 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::Sound::~destructor(void)
+11  0x00227f74 0x00629774 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::Sound::pause(void)
+12  0x00227f78 0x00629778 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::Sound::setBuffer(class sf::SoundBuffer const &)
+13  0x00227f7c 0x0062977c NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::Music::constructor(void)
+14  0x00227f80 0x00629780 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundBuffer::constructor(void)
+15  0x00227f84 0x00629784 NONE FUNC 0    sfml-audio-2.dll                      public: bool __thiscall sf::Music::openFromMemory(void const *, unsigned int)
+16  0x00227f88 0x00629788 NONE FUNC 0    sfml-audio-2.dll                      public: bool __thiscall sf::SoundBuffer::loadFromMemory(void const *, unsigned int)
+17  0x00227f8c 0x0062978c NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundStream::setLoop(bool)
+18  0x00227f90 0x00629790 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::SoundStream::stop(void)
+19  0x00227f94 0x00629794 NONE FUNC 0    sfml-audio-2.dll                      public: class sf::Time __thiscall sf::Music::getDuration(void)
+20  0x00227f98 0x00629798 NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::SoundStream::play(void)
+21  0x00227f9c 0x0062979c NONE FUNC 0    sfml-audio-2.dll                      public virtual: void __thiscall sf::Sound::play(void)
+22  0x00227fa0 0x006297a0 NONE FUNC 0    sfml-audio-2.dll                      public: class sf::SoundBuffer const * __thiscall sf::Sound::getBuffer(void)const
+23  0x00227fa4 0x006297a4 NONE FUNC 0    sfml-audio-2.dll                      public: unsigned int __thiscall sf::SoundBuffer::getChannelCount(void)const
+24  0x00227fa8 0x006297a8 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::Sound::setLoop(bool)
+25  0x00227fac 0x006297ac NONE FUNC 0    sfml-audio-2.dll                      public virtual: enum sf::SoundSource::Status __thiscall sf::Sound::getStatus(void)
+26  0x00227fb0 0x006297b0 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundSource::setVolume(float)
+27  0x00227fb4 0x006297b4 NONE FUNC 0    sfml-audio-2.dll                      public: void __thiscall sf::SoundStream::setPlayingOffset(class sf::Time)
+28  0x00227fb8 0x006297b8 NONE FUNC 0    sfml-audio-2.dll                      public: class sf::Time __thiscall sf::SoundStream::getPlayingOffset(void)
+29  0x00227fbc 0x006297bc NONE FUNC 0    sfml-audio-2.dll                      public virtual: enum sf::SoundSource::Status __thiscall sf::SoundStream::getStatus(void)
+1   0x002281c0 0x006299c0 NONE FUNC 0    sfml-network-2.dll                    class sf::IpAddress const sf::IpAddress::None
+2   0x002281c4 0x006299c4 NONE FUNC 0    sfml-network-2.dll                    public: enum sf::Socket::Status __thiscall sf::TcpSocket::connect(class sf::IpAddress const &, unsigned short int, class sf::Time)
+3   0x002281c8 0x006299c8 NONE FUNC 0    sfml-network-2.dll                    public: void __thiscall sf::TcpSocket::disconnect(void)
+4   0x002281cc 0x006299cc NONE FUNC 0    sfml-network-2.dll                    public: enum sf::Socket::Status __thiscall sf::TcpSocket::send(void const *, unsigned int, unsigned int &)
+5   0x002281d0 0x006299d0 NONE FUNC 0    sfml-network-2.dll                    public: enum sf::Socket::Status __thiscall sf::TcpSocket::receive(void *, unsigned int, unsigned int &)
+6   0x002281d4 0x006299d4 NONE FUNC 0    sfml-network-2.dll                    public: class sf::IpAddress __thiscall sf::TcpSocket::getRemoteAddress(void)
+7   0x002281d8 0x006299d8 NONE FUNC 0    sfml-network-2.dll                    public: void __thiscall sf::Socket::setBlocking(bool)
+8   0x002281dc 0x006299dc NONE FUNC 0    sfml-network-2.dll                    bool __cdecl sf::operator!=(class sf::IpAddress const &, class sf::IpAddress const &)
+9   0x002281e0 0x006299e0 NONE FUNC 0    sfml-network-2.dll                    protected: unsigned int __thiscall sf::Socket::getHandle(void)const
+10  0x002281e4 0x006299e4 NONE FUNC 0    sfml-network-2.dll                    public virtual: void __thiscall sf::TcpSocket::~destructor(void)
+11  0x002281e8 0x006299e8 NONE FUNC 0    sfml-network-2.dll                    public: void __thiscall sf::TcpSocket::constructor(void)
+12  0x002281ec 0x006299ec NONE FUNC 0    sfml-network-2.dll                    public: void __thiscall sf::IpAddress::constructor(class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> const &)
+1   0x002282a0 0x00629aa0 NONE FUNC 0    zip.dll                               imp.zip_stat
+2   0x002282a4 0x00629aa4 NONE FUNC 0    zip.dll                               imp.zip_close
+3   0x002282a8 0x00629aa8 NONE FUNC 0    zip.dll                               imp.zip_fread
+4   0x002282ac 0x00629aac NONE FUNC 0    zip.dll                               imp.zip_fclose
+5   0x002282b0 0x00629ab0 NONE FUNC 0    zip.dll                               imp.zip_stat_init
+6   0x002282b4 0x00629ab4 NONE FUNC 0    zip.dll                               imp.zip_open
+7   0x002282b8 0x00629ab8 NONE FUNC 0    zip.dll                               imp.zip_get_name
+8   0x002282bc 0x00629abc NONE FUNC 0    zip.dll                               imp.zip_fopen
+9   0x002282c0 0x00629ac0 NONE FUNC 0    zip.dll                               imp.zip_get_num_entries
+1   0x00228294 0x00629a94 NONE FUNC 0    steam_api.dll                         imp.SteamInternal_SteamAPI_Init
+2   0x00228298 0x00629a98 NONE FUNC 0    steam_api.dll                         imp.SteamAPI_Shutdown
+1   0x00227830 0x00629030 NONE FUNC 0    KERNEL32.dll                          imp.WaitForSingleObjectEx
+2   0x00227834 0x00629034 NONE FUNC 0    KERNEL32.dll                          imp.LoadLibraryA
+3   0x00227838 0x00629038 NONE FUNC 0    KERNEL32.dll                          imp.CreateFileA
+4   0x0022783c 0x0062903c NONE FUNC 0    KERNEL32.dll                          imp.FlushViewOfFile
+5   0x00227840 0x00629040 NONE FUNC 0    KERNEL32.dll                          imp.InitializeSListHead
+6   0x00227844 0x00629044 NONE FUNC 0    KERNEL32.dll                          imp.GetStartupInfoW
+7   0x00227848 0x00629048 NONE FUNC 0    KERNEL32.dll                          imp.IsDebuggerPresent
+8   0x0022784c 0x0062904c NONE FUNC 0    KERNEL32.dll                          imp.IsProcessorFeaturePresent
+9   0x00227850 0x00629050 NONE FUNC 0    KERNEL32.dll                          imp.TerminateProcess
+10  0x00227854 0x00629054 NONE FUNC 0    KERNEL32.dll                          imp.UnhandledExceptionFilter
+11  0x00227858 0x00629058 NONE FUNC 0    KERNEL32.dll                          imp.WakeAllConditionVariable
+12  0x0022785c 0x0062905c NONE FUNC 0    KERNEL32.dll                          imp.SleepConditionVariableSRW
+13  0x00227860 0x00629060 NONE FUNC 0    KERNEL32.dll                          imp.AcquireSRWLockExclusive
+14  0x00227864 0x00629064 NONE FUNC 0    KERNEL32.dll                          imp.ReleaseSRWLockExclusive
+15  0x00227868 0x00629068 NONE FUNC 0    KERNEL32.dll                          imp.GetFileInformationByHandleEx
+16  0x0022786c 0x0062906c NONE FUNC 0    KERNEL32.dll                          imp.CopyFileW
+17  0x00227870 0x00629070 NONE FUNC 0    KERNEL32.dll                          imp.SetFileInformationByHandle
+18  0x00227874 0x00629074 NONE FUNC 0    KERNEL32.dll                          imp.GetFileInformationByHandle
+19  0x00227878 0x00629078 NONE FUNC 0    KERNEL32.dll                          imp.FindNextFileW
+20  0x0022787c 0x0062907c NONE FUNC 0    KERNEL32.dll                          imp.FindFirstFileExW
+21  0x00227880 0x00629080 NONE FUNC 0    KERNEL32.dll                          imp.FindFirstFileW
+22  0x00227884 0x00629084 NONE FUNC 0    KERNEL32.dll                          imp.GetLocaleInfoEx
+23  0x00227888 0x00629088 NONE FUNC 0    KERNEL32.dll                          imp.OutputDebugStringW
+24  0x0022788c 0x0062908c NONE FUNC 0    KERNEL32.dll                          imp.GetFileAttributesExW
+25  0x00227890 0x00629090 NONE FUNC 0    KERNEL32.dll                          imp.GetFileAttributesA
+26  0x00227894 0x00629094 NONE FUNC 0    KERNEL32.dll                          imp.GetDiskFreeSpaceA
+27  0x00227898 0x00629098 NONE FUNC 0    KERNEL32.dll                          imp.FormatMessageW
+28  0x0022789c 0x0062909c NONE FUNC 0    KERNEL32.dll                          imp.GetTempPathA
+29  0x002278a0 0x006290a0 NONE FUNC 0    KERNEL32.dll                          imp.HeapSize
+30  0x002278a4 0x006290a4 NONE FUNC 0    KERNEL32.dll                          imp.DeleteFileA
+31  0x002278a8 0x006290a8 NONE FUNC 0    KERNEL32.dll                          imp.UnmapViewOfFile
+32  0x002278ac 0x006290ac NONE FUNC 0    KERNEL32.dll                          imp.GetFileAttributesW
+33  0x002278b0 0x006290b0 NONE FUNC 0    KERNEL32.dll                          imp.CreateMutexW
+34  0x002278b4 0x006290b4 NONE FUNC 0    KERNEL32.dll                          imp.GetTempPathW
+35  0x002278b8 0x006290b8 NONE FUNC 0    KERNEL32.dll                          imp.UnlockFileEx
+36  0x002278bc 0x006290bc NONE FUNC 0    KERNEL32.dll                          imp.SetEndOfFile
+37  0x002278c0 0x006290c0 NONE FUNC 0    KERNEL32.dll                          imp.GetFullPathNameA
+38  0x002278c4 0x006290c4 NONE FUNC 0    KERNEL32.dll                          imp.SetFilePointer
+39  0x002278c8 0x006290c8 NONE FUNC 0    KERNEL32.dll                          imp.InitializeCriticalSection
+40  0x002278cc 0x006290cc NONE FUNC 0    KERNEL32.dll                          imp.LeaveCriticalSection
+41  0x002278d0 0x006290d0 NONE FUNC 0    KERNEL32.dll                          imp.LockFile
+42  0x002278d4 0x006290d4 NONE FUNC 0    KERNEL32.dll                          imp.OutputDebugStringA
+43  0x002278d8 0x006290d8 NONE FUNC 0    KERNEL32.dll                          imp.DeleteFileW
+44  0x002278dc 0x006290dc NONE FUNC 0    KERNEL32.dll                          imp.HeapReAlloc
+45  0x002278e0 0x006290e0 NONE FUNC 0    KERNEL32.dll                          imp.HeapAlloc
+46  0x002278e4 0x006290e4 NONE FUNC 0    KERNEL32.dll                          imp.HeapCompact
+47  0x002278e8 0x006290e8 NONE FUNC 0    KERNEL32.dll                          imp.HeapDestroy
+48  0x002278ec 0x006290ec NONE FUNC 0    KERNEL32.dll                          imp.UnlockFile
+49  0x002278f0 0x006290f0 NONE FUNC 0    KERNEL32.dll                          imp.LocalFree
+50  0x002278f4 0x006290f4 NONE FUNC 0    KERNEL32.dll                          imp.LockFileEx
+51  0x002278f8 0x006290f8 NONE FUNC 0    KERNEL32.dll                          imp.GetFileSize
+52  0x002278fc 0x006290fc NONE FUNC 0    KERNEL32.dll                          imp.DeleteCriticalSection
+53  0x00227900 0x00629100 NONE FUNC 0    KERNEL32.dll                          imp.GetDiskFreeSpaceW
+54  0x00227904 0x00629104 NONE FUNC 0    KERNEL32.dll                          imp.VirtualQuery
+55  0x00227908 0x00629108 NONE FUNC 0    KERNEL32.dll                          imp.VirtualFree
+56  0x0022790c 0x0062910c NONE FUNC 0    KERNEL32.dll                          imp.VirtualProtect
+57  0x00227910 0x00629110 NONE FUNC 0    KERNEL32.dll                          imp.VirtualAlloc
+58  0x00227914 0x00629114 NONE FUNC 0    KERNEL32.dll                          imp.FlushInstructionCache
+59  0x00227918 0x00629118 NONE FUNC 0    KERNEL32.dll                          imp.SetThreadContext
+60  0x0022791c 0x0062911c NONE FUNC 0    KERNEL32.dll                          imp.GetThreadContext
+61  0x00227920 0x00629120 NONE FUNC 0    KERNEL32.dll                          imp.ResumeThread
+62  0x00227924 0x00629124 NONE FUNC 0    KERNEL32.dll                          imp.SuspendThread
+63  0x00227928 0x00629128 NONE FUNC 0    KERNEL32.dll                          imp.ExpandEnvironmentStringsW
+64  0x0022792c 0x0062912c NONE FUNC 0    KERNEL32.dll                          imp.lstrcmpW
+65  0x00227930 0x00629130 NONE FUNC 0    KERNEL32.dll                          imp.VerSetConditionMask
+66  0x00227934 0x00629134 NONE FUNC 0    KERNEL32.dll                          imp.VerifyVersionInfoW
+67  0x00227938 0x00629138 NONE FUNC 0    KERNEL32.dll                          imp.LoadLibraryExW
+68  0x0022793c 0x0062913c NONE FUNC 0    KERNEL32.dll                          imp.GetModuleHandleA
+69  0x00227940 0x00629140 NONE FUNC 0    KERNEL32.dll                          imp.SetLastError
+70  0x00227944 0x00629144 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemDirectoryW
+71  0x00227948 0x00629148 NONE FUNC 0    KERNEL32.dll                          imp.LocalAlloc
+72  0x0022794c 0x0062914c NONE FUNC 0    KERNEL32.dll                          imp.InterlockedIncrement
+73  0x00227950 0x00629150 NONE FUNC 0    KERNEL32.dll                          imp.InterlockedDecrement
+74  0x00227954 0x00629154 NONE FUNC 0    KERNEL32.dll                          imp.FlushFileBuffers
+75  0x00227958 0x00629158 NONE FUNC 0    KERNEL32.dll                          imp.GetTickCount
+76  0x0022795c 0x0062915c NONE FUNC 0    KERNEL32.dll                          imp.HeapValidate
+77  0x00227960 0x00629160 NONE FUNC 0    KERNEL32.dll                          imp.SystemTimeToFileTime
+78  0x00227964 0x00629164 NONE FUNC 0    KERNEL32.dll                          imp.QueryPerformanceCounter
+79  0x00227968 0x00629168 NONE FUNC 0    KERNEL32.dll                          imp.MapViewOfFile
+80  0x0022796c 0x0062916c NONE FUNC 0    KERNEL32.dll                          imp.CreateFileMappingW
+81  0x00227970 0x00629170 NONE FUNC 0    KERNEL32.dll                          imp.FormatMessageA
+82  0x00227974 0x00629174 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemTimeAsFileTime
+83  0x00227978 0x00629178 NONE FUNC 0    KERNEL32.dll                          imp.WriteFile
+84  0x0022797c 0x0062917c NONE FUNC 0    KERNEL32.dll                          imp.GetFullPathNameW
+85  0x00227980 0x00629180 NONE FUNC 0    KERNEL32.dll                          imp.EnterCriticalSection
+86  0x00227984 0x00629184 NONE FUNC 0    KERNEL32.dll                          imp.HeapFree
+87  0x00227988 0x00629188 NONE FUNC 0    KERNEL32.dll                          imp.HeapCreate
+88  0x0022798c 0x0062918c NONE FUNC 0    KERNEL32.dll                          imp.TryEnterCriticalSection
+89  0x00227990 0x00629190 NONE FUNC 0    KERNEL32.dll                          imp.AreFileApisANSI
+90  0x00227994 0x00629194 NONE FUNC 0    KERNEL32.dll                          imp.GetCurrentDirectoryA
+91  0x00227998 0x00629198 NONE FUNC 0    KERNEL32.dll                          imp.GetPrivateProfileStringA
+92  0x0022799c 0x0062919c NONE FUNC 0    KERNEL32.dll                          imp.GetPrivateProfileIntA
+93  0x002279a0 0x006291a0 NONE FUNC 0    KERNEL32.dll                          imp.WritePrivateProfileStringA
+94  0x002279a4 0x006291a4 NONE FUNC 0    KERNEL32.dll                          imp.WaitForSingleObject
+95  0x002279a8 0x006291a8 NONE FUNC 0    KERNEL32.dll                          imp.GlobalFree
+96  0x002279ac 0x006291ac NONE FUNC 0    KERNEL32.dll                          imp.GlobalAlloc
+97  0x002279b0 0x006291b0 NONE FUNC 0    KERNEL32.dll                          imp.GlobalUnlock
+98  0x002279b4 0x006291b4 NONE FUNC 0    KERNEL32.dll                          imp.GlobalLock
+99  0x002279b8 0x006291b8 NONE FUNC 0    KERNEL32.dll                          imp.GetCommandLineW
+100 0x002279bc 0x006291bc NONE FUNC 0    KERNEL32.dll                          imp.K32GetProcessMemoryInfo
+101 0x002279c0 0x006291c0 NONE FUNC 0    KERNEL32.dll                          imp.IsWow64Process
+102 0x002279c4 0x006291c4 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemPowerStatus
+103 0x002279c8 0x006291c8 NONE FUNC 0    KERNEL32.dll                          imp.GetACP
+104 0x002279cc 0x006291cc NONE FUNC 0    KERNEL32.dll                          imp.GetLocaleInfoW
+105 0x002279d0 0x006291d0 NONE FUNC 0    KERNEL32.dll                          imp.GetUserDefaultLocaleName
+106 0x002279d4 0x006291d4 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemDefaultLocaleName
+107 0x002279d8 0x006291d8 NONE FUNC 0    KERNEL32.dll                          imp.GetDiskFreeSpaceExA
+108 0x002279dc 0x006291dc NONE FUNC 0    KERNEL32.dll                          imp.GetDriveTypeA
+109 0x002279e0 0x006291e0 NONE FUNC 0    KERNEL32.dll                          imp.GetLogicalDrives
+110 0x002279e4 0x006291e4 NONE FUNC 0    KERNEL32.dll                          imp.GetLogicalProcessorInformationEx
+111 0x002279e8 0x006291e8 NONE FUNC 0    KERNEL32.dll                          imp.GetComputerNameW
+112 0x002279ec 0x006291ec NONE FUNC 0    KERNEL32.dll                          imp.GetNativeSystemInfo
+113 0x002279f0 0x006291f0 NONE FUNC 0    KERNEL32.dll                          imp.GetTickCount64
+114 0x002279f4 0x006291f4 NONE FUNC 0    KERNEL32.dll                          imp.GetTimeZoneInformation
+115 0x002279f8 0x006291f8 NONE FUNC 0    KERNEL32.dll                          imp.SetUnhandledExceptionFilter
+116 0x002279fc 0x006291fc NONE FUNC 0    KERNEL32.dll                          imp.FreeLibrary
+117 0x00227a00 0x00629200 NONE FUNC 0    KERNEL32.dll                          imp.GetCurrentProcess
+118 0x00227a04 0x00629204 NONE FUNC 0    KERNEL32.dll                          imp.LoadLibraryW
+119 0x00227a08 0x00629208 NONE FUNC 0    KERNEL32.dll                          imp.GetCurrentThreadId
+120 0x00227a0c 0x0062920c NONE FUNC 0    KERNEL32.dll                          imp.CreateDirectoryW
+121 0x00227a10 0x00629210 NONE FUNC 0    KERNEL32.dll                          imp.GetEnvironmentVariableW
+122 0x00227a14 0x00629214 NONE FUNC 0    KERNEL32.dll                          imp.GetCurrentProcessId
+123 0x00227a18 0x00629218 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemTime
+124 0x00227a1c 0x0062921c NONE FUNC 0    KERNEL32.dll                          imp.GetProcAddress
+125 0x00227a20 0x00629220 NONE FUNC 0    KERNEL32.dll                          imp.GetModuleHandleW
+126 0x00227a24 0x00629224 NONE FUNC 0    KERNEL32.dll                          imp.SetFilePointerEx
+127 0x00227a28 0x00629228 NONE FUNC 0    KERNEL32.dll                          imp.ReadFile
+128 0x00227a2c 0x0062922c NONE FUNC 0    KERNEL32.dll                          imp.CloseHandle
+129 0x00227a30 0x00629230 NONE FUNC 0    KERNEL32.dll                          imp.GetFileSizeEx
+130 0x00227a34 0x00629234 NONE FUNC 0    KERNEL32.dll                          imp.CreateFileW
+131 0x00227a38 0x00629238 NONE FUNC 0    KERNEL32.dll                          imp.WideCharToMultiByte
+132 0x00227a3c 0x0062923c NONE FUNC 0    KERNEL32.dll                          imp.Sleep
+133 0x00227a40 0x00629240 NONE FUNC 0    KERNEL32.dll                          imp.FindClose
+134 0x00227a44 0x00629244 NONE FUNC 0    KERNEL32.dll                          imp.GetProcessHeap
+135 0x00227a48 0x00629248 NONE FUNC 0    KERNEL32.dll                          imp.FindNextFileA
+136 0x00227a4c 0x0062924c NONE FUNC 0    KERNEL32.dll                          imp.FindFirstFileA
+137 0x00227a50 0x00629250 NONE FUNC 0    KERNEL32.dll                          imp.GetLastError
+138 0x00227a54 0x00629254 NONE FUNC 0    KERNEL32.dll                          imp.GlobalMemoryStatusEx
+139 0x00227a58 0x00629258 NONE FUNC 0    KERNEL32.dll                          imp.GetSystemInfo
+140 0x00227a5c 0x0062925c NONE FUNC 0    KERNEL32.dll                          imp.GetComputerNameA
+141 0x00227a60 0x00629260 NONE FUNC 0    KERNEL32.dll                          imp.SetCurrentDirectoryA
+142 0x00227a64 0x00629264 NONE FUNC 0    KERNEL32.dll                          imp.GetModuleFileNameW
+143 0x00227a68 0x00629268 NONE FUNC 0    KERNEL32.dll                          imp.GetCurrentThread
+144 0x00227a6c 0x0062926c NONE FUNC 0    KERNEL32.dll                          imp.MultiByteToWideChar
+1   0x00227c7c 0x0062947c NONE FUNC 0    USER32.dll                            imp.SetClipboardData
+2   0x00227c80 0x00629480 NONE FUNC 0    USER32.dll                            imp.EmptyClipboard
+3   0x00227c84 0x00629484 NONE FUNC 0    USER32.dll                            imp.CloseClipboard
+4   0x00227c88 0x00629488 NONE FUNC 0    USER32.dll                            imp.GetClipboardData
+5   0x00227c8c 0x0062948c NONE FUNC 0    USER32.dll                            imp.OpenClipboard
+6   0x00227c90 0x00629490 NONE FUNC 0    USER32.dll                            imp.GetKeyboardLayout
+7   0x00227c94 0x00629494 NONE FUNC 0    USER32.dll                            imp.ReleaseDC
+8   0x00227c98 0x00629498 NONE FUNC 0    USER32.dll                            imp.GetDC
+9   0x00227c9c 0x0062949c NONE FUNC 0    USER32.dll                            imp.EnumDisplaySettingsW
+10  0x00227ca0 0x006294a0 NONE FUNC 0    USER32.dll                            imp.EnumDisplayMonitors
+11  0x00227ca4 0x006294a4 NONE FUNC 0    USER32.dll                            imp.GetSystemMetrics
+12  0x00227ca8 0x006294a8 NONE FUNC 0    USER32.dll                            imp.MessageBoxW
+13  0x00227cac 0x006294ac NONE FUNC 0    USER32.dll                            imp.EnumDisplayDevicesW
+14  0x00227cb0 0x006294b0 NONE FUNC 0    USER32.dll                            imp.MessageBoxA
+15  0x00227cb4 0x006294b4 NONE FUNC 0    USER32.dll                            imp.GetMonitorInfoA
+16  0x00227cb8 0x006294b8 NONE FUNC 0    USER32.dll                            imp.MonitorFromWindow
+17  0x00227cbc 0x006294bc NONE FUNC 0    USER32.dll                            imp.SetWindowPos
+18  0x00227cc0 0x006294c0 NONE FUNC 0    USER32.dll                            imp.GetWindowLongA
+19  0x00227cc4 0x006294c4 NONE FUNC 0    USER32.dll                            imp.CallWindowProcA
+20  0x00227cc8 0x006294c8 NONE FUNC 0    USER32.dll                            imp.GetAsyncKeyState
+21  0x00227ccc 0x006294cc NONE FUNC 0    USER32.dll                            imp.SetWindowLongA
+22  0x00227cd0 0x006294d0 NONE FUNC 0    USER32.dll                            imp.MapVirtualKeyA
+23  0x00227cd4 0x006294d4 NONE FUNC 0    USER32.dll                            imp.PostMessageA
+24  0x00227cd8 0x006294d8 NONE FUNC 0    USER32.dll                            imp.GetMonitorInfoW
+1   0x00227820 0x00629020 NONE FUNC 0    GDI32.dll                             imp.GetDeviceCaps
+1   0x00227800 0x00629000 NONE FUNC 0    ADVAPI32.dll                          imp.GetTokenInformation
+2   0x00227804 0x00629004 NONE FUNC 0    ADVAPI32.dll                          imp.OpenProcessToken
+3   0x00227808 0x00629008 NONE FUNC 0    ADVAPI32.dll                          imp.GetUserNameA
+4   0x0022780c 0x0062900c NONE FUNC 0    ADVAPI32.dll                          imp.RegOpenKeyExW
+5   0x00227810 0x00629010 NONE FUNC 0    ADVAPI32.dll                          imp.GetUserNameW
+6   0x00227814 0x00629014 NONE FUNC 0    ADVAPI32.dll                          imp.RegCloseKey
+7   0x00227818 0x00629018 NONE FUNC 0    ADVAPI32.dll                          imp.RegQueryValueExW
+1   0x00227c68 0x00629468 NONE FUNC 0    SHELL32.dll                           imp.ShellExecuteA
+2   0x00227c6c 0x0062946c NONE FUNC 0    SHELL32.dll                           imp.SHGetFolderPathW
+3   0x00227c70 0x00629470 NONE FUNC 0    SHELL32.dll                           imp.ShellExecuteExA
+4   0x00227c74 0x00629474 NONE FUNC 0    SHELL32.dll                           imp.SHGetFolderPathA
+1   0x00227f30 0x00629730 NONE FUNC 0    ole32.dll                             imp.CoInitializeEx
+2   0x00227f34 0x00629734 NONE FUNC 0    ole32.dll                             imp.PropVariantClear
+3   0x00227f38 0x00629738 NONE FUNC 0    ole32.dll                             imp.CoInitializeSecurity
+4   0x00227f3c 0x0062973c NONE FUNC 0    ole32.dll                             imp.CoInitialize
+5   0x00227f40 0x00629740 NONE FUNC 0    ole32.dll                             imp.CoUninitialize
+6   0x00227f44 0x00629744 NONE FUNC 0    ole32.dll                             imp.CoCreateInstance
+2   0x00227c48 0x00629448 NONE FUNC 0    OLEAUT32.dll                          imp.SysReAllocString
+9   0x00227c4c 0x0062944c NONE FUNC 0    OLEAUT32.dll                          imp.VariantCopy
+8   0x00227c50 0x00629450 NONE FUNC 0    OLEAUT32.dll                          imp.VariantClear
+6   0x00227c54 0x00629454 NONE FUNC 0    OLEAUT32.dll                          imp.SysStringLen
+1   0x00227a74 0x00629274 NONE FUNC 0    MSVCP140.dll                          public: unsigned short int __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::sputc(wchar_t)
+2   0x00227a78 0x00629278 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ios<wchar_t, struct std::char_traits<wchar_t>>::setstate(int, bool)
+3   0x00227a7c 0x0062927c NONE FUNC 0    MSVCP140.dll                          int __cdecl std::_Winerror_map(int)
+4   0x00227a80 0x00629280 NONE FUNC 0    MSVCP140.dll                          imp._Mtx_lock
+5   0x00227a84 0x00629284 NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Throw_Cpp_error(int)
+6   0x00227a88 0x00629288 NONE FUNC 0    MSVCP140.dll                          imp._Mtx_unlock
+7   0x00227a8c 0x0062928c NONE FUNC 0    MSVCP140.dll                          imp._Xtime_get_ticks
+8   0x00227a90 0x00629290 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ostream<char, struct std::char_traits<char>>::constructor(class std::basic_streambuf<char, struct std::char_traits<char>> *, bool)
+9   0x00227a94 0x00629294 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(long long(__int64))
+10  0x00227a98 0x00629298 NONE FUNC 0    MSVCP140.dll                          struct std::_Smanip<long long(__int64)> __cdecl std::setw(long long(__int64))
+11  0x00227a9c 0x0062929c NONE FUNC 0    MSVCP140.dll                          class std::locale::id std::time_put<char, class std::ostreambuf_iterator<char, struct std::char_traits<char>>>::id
+12  0x00227aa0 0x006292a0 NONE FUNC 0    MSVCP140.dll                          public: static unsigned int __cdecl std::time_put<char, class std::ostreambuf_iterator<char, struct std::char_traits<char>>>::_Getcat(class std::locale::facet const * *, class std::locale const *)
+13  0x00227aa4 0x006292a4 NONE FUNC 0    MSVCP140.dll                          public: class std::ostreambuf_iterator<char, struct std::char_traits<char>> __thiscall std::time_put<char, class std::ostreambuf_iterator<char, struct std::char_traits<char>>>::put(class std::ostreambuf_iterator<char, struct std::char_traits<char>>, class std::ios_base &, char, struct tm const *, char const *, char const *)
+14  0x00227aa8 0x006292a8 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(class std::basic_ostream<char, struct std::char_traits<char>> & (__cdecl *)(class std::basic_ostream<char, struct std::char_traits<char>> &))
+15  0x00227aac 0x006292ac NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::put(char)
+16  0x00227ab0 0x006292b0 NONE FUNC 0    MSVCP140.dll                          public: class std::fpos<struct _Mbstatet> __thiscall std::basic_ostream<char, struct std::char_traits<char>>::tellp(void)
+17  0x00227ab4 0x006292b4 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::codecvt<char, char, struct _Mbstatet>::in(struct _Mbstatet &, char const *, char const *, char const * &, char *, char *, char * &)const
+18  0x00227ab8 0x006292b8 NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Xout_of_range(char const *)
+19  0x00227abc 0x006292bc NONE FUNC 0    MSVCP140.dll                          public: bool __thiscall std::ios_base::operator!(void)const
+20  0x00227ac0 0x006292c0 NONE FUNC 0    MSVCP140.dll                          public: class std::locale __thiscall std::ios_base::getloc(void)
+21  0x00227ac4 0x006292c4 NONE FUNC 0    MSVCP140.dll                          public: char __thiscall std::basic_ios<char, struct std::char_traits<char>>::widen(char)const
+22  0x00227ac8 0x006292c8 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_istream<char, struct std::char_traits<char>>::constructor(class std::basic_streambuf<char, struct std::char_traits<char>> *, bool)
+23  0x00227acc 0x006292cc NONE FUNC 0    MSVCP140.dll                          protected: void __thiscall std::basic_ios<char, struct std::char_traits<char>>::constructor(void)
+24  0x00227ad0 0x006292d0 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_iostream<char, struct std::char_traits<char>>::constructor(class std::basic_streambuf<char, struct std::char_traits<char>> *)
+25  0x00227ad4 0x006292d4 NONE FUNC 0    MSVCP140.dll                          private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)
+26  0x00227ad8 0x006292d8 NONE FUNC 0    MSVCP140.dll                          protected: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::constructor(void)
+27  0x00227adc 0x006292dc NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(class std::basic_streambuf<char, struct std::char_traits<char>> *)
+28  0x00227ae0 0x006292e0 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::codecvt<char, char, struct _Mbstatet>::out(struct _Mbstatet &, char const *, char const *, char const * &, char *, char *, char * &)const
+29  0x00227ae4 0x006292e4 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::codecvt<char, char, struct _Mbstatet>::unshift(struct _Mbstatet &, char *, char *, char * &)const
+30  0x00227ae8 0x006292e8 NONE FUNC 0    MSVCP140.dll                          struct _iobuf * __cdecl std::_Fiopen(wchar_t const *, int, int)
+31  0x00227aec 0x006292ec NONE FUNC 0    MSVCP140.dll                          public: bool __thiscall std::codecvt_base::always_noconv(void)const
+32  0x00227af0 0x006292f0 NONE FUNC 0    MSVCP140.dll                          protected: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::_Init(void)
+33  0x00227af4 0x006292f4 NONE FUNC 0    MSVCP140.dll                          int std::locale::id::_Id_cnt
+34  0x00227af8 0x006292f8 NONE FUNC 0    MSVCP140.dll                          class std::locale::id std::codecvt<char, char, struct _Mbstatet>::id
+35  0x00227afc 0x006292fc NONE FUNC 0    MSVCP140.dll                          private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)
+36  0x00227b00 0x00629300 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::_Lockit::constructor(int)
+37  0x00227b04 0x00629304 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_istream<char, struct std::char_traits<char>>::~destructor(void)
+38  0x00227b08 0x00629308 NONE FUNC 0    MSVCP140.dll                          public: static unsigned int __cdecl std::codecvt<char, char, struct _Mbstatet>::_Getcat(class std::locale::facet const * *, class std::locale const *)
+39  0x00227b0c 0x0062930c NONE FUNC 0    MSVCP140.dll                          public: class std::locale __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::getloc(void)
+40  0x00227b10 0x00629310 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::sputc(char)
+41  0x00227b14 0x00629314 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::flush(void)
+42  0x00227b18 0x00629318 NONE FUNC 0    MSVCP140.dll                          bool __cdecl std::uncaught_exception(void)
+43  0x00227b1c 0x0062931c NONE FUNC 0    MSVCP140.dll                          public: bool __thiscall std::ios_base::good(void)const
+44  0x00227b20 0x00629320 NONE FUNC 0    MSVCP140.dll                          public: long long(__int64) __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::sputn(wchar_t const *, long long(__int64))
+45  0x00227b24 0x00629324 NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::xsputn(wchar_t const *, long long(__int64))
+46  0x00227b28 0x00629328 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::_Osfx(void)
+47  0x00227b2c 0x0062932c NONE FUNC 0    MSVCP140.dll                          protected virtual: int __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::sync(void)
+48  0x00227b30 0x00629330 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::_Unlock(void)
+49  0x00227b34 0x00629334 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>> & __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::flush(void)
+50  0x00227b38 0x00629338 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::_Lock(void)
+51  0x00227b3c 0x0062933c NONE FUNC 0    MSVCP140.dll                          public: class std::ostreambuf_iterator<wchar_t, struct std::char_traits<wchar_t>> __thiscall std::time_put<wchar_t, class std::ostreambuf_iterator<wchar_t, struct std::char_traits<wchar_t>>>::put(class std::ostreambuf_iterator<wchar_t, struct std::char_traits<wchar_t>>, class std::ios_base &, wchar_t, struct tm const *, wchar_t const *, wchar_t const *)
+52  0x00227b40 0x00629340 NONE FUNC 0    MSVCP140.dll                          public: static unsigned int __cdecl std::time_put<wchar_t, class std::ostreambuf_iterator<wchar_t, struct std::char_traits<wchar_t>>>::_Getcat(class std::locale::facet const * *, class std::locale const *)
+53  0x00227b44 0x00629344 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_ios<wchar_t, struct std::char_traits<wchar_t>>::~destructor(void)
+54  0x00227b48 0x00629348 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::~destructor(void)
+55  0x00227b4c 0x0062934c NONE FUNC 0    MSVCP140.dll                          protected virtual: void __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::imbue(class std::locale const &)
+56  0x00227b50 0x00629350 NONE FUNC 0    MSVCP140.dll                          protected virtual: class std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>> * __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::setbuf(wchar_t *, long long(__int64))
+57  0x00227b54 0x00629354 NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::xsgetn(wchar_t *, long long(__int64))
+58  0x00227b58 0x00629358 NONE FUNC 0    MSVCP140.dll                          protected virtual: unsigned short int __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::uflow(void)
+59  0x00227b5c 0x0062935c NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::showmanyc(void)
+60  0x00227b60 0x00629360 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::~destructor(void)
+61  0x00227b64 0x00629364 NONE FUNC 0    MSVCP140.dll                          protected: void __thiscall std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>>::constructor(void)
+62  0x00227b68 0x00629368 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::constructor(class std::basic_streambuf<wchar_t, struct std::char_traits<wchar_t>> *, bool)
+63  0x00227b6c 0x0062936c NONE FUNC 0    MSVCP140.dll                          protected: void __thiscall std::basic_ios<wchar_t, struct std::char_traits<wchar_t>>::constructor(void)
+64  0x00227b70 0x00629370 NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Xbad_function_call(void)
+65  0x00227b74 0x00629374 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(unsigned long int)
+66  0x00227b78 0x00629378 NONE FUNC 0    MSVCP140.dll                          unsigned int __cdecl std::_Random_device(void)
+67  0x00227b7c 0x0062937c NONE FUNC 0    MSVCP140.dll                          imp._Query_perf_counter
+68  0x00227b80 0x00629380 NONE FUNC 0    MSVCP140.dll                          imp._Query_perf_frequency
+69  0x00227b84 0x00629384 NONE FUNC 0    MSVCP140.dll                          public: bool __thiscall std::ios_base::operator bool(void)const
+70  0x00227b88 0x00629388 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::snextc(void)
+71  0x00227b8c 0x0062938c NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::sgetc(void)
+72  0x00227b90 0x00629390 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::sbumpc(void)
+73  0x00227b94 0x00629394 NONE FUNC 0    MSVCP140.dll                          struct _iobuf * __cdecl std::_Fiopen(char const *, int, int)
+74  0x00227b98 0x00629398 NONE FUNC 0    MSVCP140.dll                          public: bool __thiscall std::basic_istream<char, struct std::char_traits<char>>::_Ipfx(bool)
+75  0x00227b9c 0x0062939c NONE FUNC 0    MSVCP140.dll                          imp._Thrd_join
+76  0x00227ba0 0x006293a0 NONE FUNC 0    MSVCP140.dll                          imp._Thrd_id
+77  0x00227ba4 0x006293a4 NONE FUNC 0    MSVCP140.dll                          imp._Cnd_do_broadcast_at_thread_exit
+78  0x00227ba8 0x006293a8 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::_Locinfo::~destructor(void)
+79  0x00227bac 0x006293ac NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Xruntime_error(char const *)
+80  0x00227bb0 0x006293b0 NONE FUNC 0    MSVCP140.dll                          public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)
+81  0x00227bb4 0x006293b4 NONE FUNC 0    MSVCP140.dll                          private: static class std::locale::_Locimp * __cdecl std::locale::_Locimp::_Makeloc(class std::_Locinfo const &, int, class std::locale::_Locimp *, class std::locale const *)
+82  0x00227bb8 0x006293b8 NONE FUNC 0    MSVCP140.dll                          public: char const * __thiscall std::_Locinfo::_Getname(void)const
+83  0x00227bbc 0x006293bc NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::_Locinfo::constructor(int, char const *)
+84  0x00227bc0 0x006293c0 NONE FUNC 0    MSVCP140.dll                          private: static class std::locale::_Locimp * __cdecl std::locale::_Locimp::_New_Locimp(bool)
+85  0x00227bc4 0x006293c4 NONE FUNC 0    MSVCP140.dll                          public: class std::locale __thiscall std::basic_ios<char, struct std::char_traits<char>>::imbue(class std::locale const &)
+86  0x00227bc8 0x006293c8 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(class std::ios_base & (__cdecl *)(class std::ios_base &))
+87  0x00227bcc 0x006293cc NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(int)
+88  0x00227bd0 0x006293d0 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::operator<<(unsigned short int)
+89  0x00227bd4 0x006293d4 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>> & __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::operator<<(unsigned short int)
+90  0x00227bd8 0x006293d8 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>> & __thiscall std::basic_ostream<wchar_t, struct std::char_traits<wchar_t>>::operator<<(unsigned long int)
+91  0x00227bdc 0x006293dc NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Xbad_alloc(void)
+92  0x00227be0 0x006293e0 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_istream<char, struct std::char_traits<char>> & __thiscall std::basic_istream<char, struct std::char_traits<char>>::operator>>(int &)
+93  0x00227be4 0x006293e4 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_istream<char, struct std::char_traits<char>> & __thiscall std::basic_istream<char, struct std::char_traits<char>>::ignore(long long(__int64), int)
+94  0x00227be8 0x006293e8 NONE FUNC 0    MSVCP140.dll                          public: int __thiscall std::basic_istream<char, struct std::char_traits<char>>::peek(void)
+95  0x00227bec 0x006293ec NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ostream<char, struct std::char_traits<char>>::_Osfx(void)
+96  0x00227bf0 0x006293f0 NONE FUNC 0    MSVCP140.dll                          public: long long(__int64) __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::sputn(char const *, long long(__int64))
+97  0x00227bf4 0x006293f4 NONE FUNC 0    MSVCP140.dll                          char const * __cdecl std::_Syserror_map(int)
+98  0x00227bf8 0x006293f8 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ios<char, struct std::char_traits<char>>::clear(int, bool)
+99  0x00227bfc 0x006293fc NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::basic_ios<char, struct std::char_traits<char>>::setstate(int, bool)
+100 0x00227c00 0x00629400 NONE FUNC 0    MSVCP140.dll                          public: class std::basic_ostream<char, struct std::char_traits<char>> & __thiscall std::basic_ostream<char, struct std::char_traits<char>>::write(char const *, long long(__int64))
+101 0x00227c04 0x00629404 NONE FUNC 0    MSVCP140.dll                          void __cdecl std::_Xlength_error(char const *)
+102 0x00227c08 0x00629408 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_ios<char, struct std::char_traits<char>>::~destructor(void)
+103 0x00227c0c 0x0062940c NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::~destructor(void)
+104 0x00227c10 0x00629410 NONE FUNC 0    MSVCP140.dll                          protected virtual: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::imbue(class std::locale const &)
+105 0x00227c14 0x00629414 NONE FUNC 0    MSVCP140.dll                          protected virtual: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::sync(void)
+106 0x00227c18 0x00629418 NONE FUNC 0    MSVCP140.dll                          protected virtual: class std::basic_streambuf<char, struct std::char_traits<char>> * __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::setbuf(char *, long long(__int64))
+107 0x00227c1c 0x0062941c NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::xsputn(char const *, long long(__int64))
+108 0x00227c20 0x00629420 NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::xsgetn(char *, long long(__int64))
+109 0x00227c24 0x00629424 NONE FUNC 0    MSVCP140.dll                          protected virtual: int __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::uflow(void)
+110 0x00227c28 0x00629428 NONE FUNC 0    MSVCP140.dll                          protected virtual: long long(__int64) __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::showmanyc(void)
+111 0x00227c2c 0x0062942c NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::_Unlock(void)
+112 0x00227c30 0x00629430 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_streambuf<char, struct std::char_traits<char>>::_Lock(void)
+113 0x00227c34 0x00629434 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_iostream<char, struct std::char_traits<char>>::~destructor(void)
+114 0x00227c38 0x00629438 NONE FUNC 0    MSVCP140.dll                          public virtual: void __thiscall std::basic_ostream<char, struct std::char_traits<char>>::~destructor(void)
+115 0x00227c3c 0x0062943c NONE FUNC 0    MSVCP140.dll                          class std::locale::id std::time_put<wchar_t, class std::ostreambuf_iterator<wchar_t, struct std::char_traits<wchar_t>>>::id
+116 0x00227c40 0x00629440 NONE FUNC 0    MSVCP140.dll                          public: void __thiscall std::_Lockit::~destructor(void)
+1   0x00227d54 0x00629554 NONE FUNC 0    WINMM.dll                             imp.joyGetDevCapsW
+2   0x00227d58 0x00629558 NONE FUNC 0    WINMM.dll                             imp.timeBeginPeriod
+3   0x00227d5c 0x0062955c NONE FUNC 0    WINMM.dll                             imp.joyGetPosEx
+1   0x00227828 0x00629028 NONE FUNC 0    IMM32.dll                             imp.ImmAssociateContext
+1   0x00227d28 0x00629528 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpReceiveResponse
+2   0x00227d2c 0x0062952c NONE FUNC 0    WINHTTP.dll                           imp.WinHttpConnect
+3   0x00227d30 0x00629530 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpCloseHandle
+4   0x00227d34 0x00629534 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpOpenRequest
+5   0x00227d38 0x00629538 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpOpen
+6   0x00227d3c 0x0062953c NONE FUNC 0    WINHTTP.dll                           imp.WinHttpSendRequest
+7   0x00227d40 0x00629540 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpSetOption
+8   0x00227d44 0x00629544 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpQueryHeaders
+9   0x00227d48 0x00629548 NONE FUNC 0    WINHTTP.dll                           imp.WinHttpReadData
+10  0x00227d4c 0x0062954c NONE FUNC 0    WINHTTP.dll                           imp.WinHttpWriteData
+1   0x00227c5c 0x0062945c NONE FUNC 0    OPENGL32.dll                          imp.glGetString
+2   0x00227c60 0x00629460 NONE FUNC 0    OPENGL32.dll                          imp.glGetIntegerv
+1   0x00227f28 0x00629728 NONE FUNC 0    dxgi.dll                              imp.CreateDXGIFactory1
+1   0x00227f20 0x00629720 NONE FUNC 0    d3d11.dll                             imp.D3D11CreateDevice
+21  0x00227d64 0x00629564 NONE FUNC 0    WS2_32.dll                            imp.setsockopt
+1   0x00227ce0 0x006294e0 NONE FUNC 0    VCRUNTIME140.dll                      imp.__current_exception_context
+2   0x00227ce4 0x006294e4 NONE FUNC 0    VCRUNTIME140.dll                      imp.__current_exception
+3   0x00227ce8 0x006294e8 NONE FUNC 0    VCRUNTIME140.dll                      imp.memset
+4   0x00227cec 0x006294ec NONE FUNC 0    VCRUNTIME140.dll                      imp.memcpy
+5   0x00227cf0 0x006294f0 NONE FUNC 0    VCRUNTIME140.dll                      imp.wcsstr
+6   0x00227cf4 0x006294f4 NONE FUNC 0    VCRUNTIME140.dll                      imp.wcsrchr
+7   0x00227cf8 0x006294f8 NONE FUNC 0    VCRUNTIME140.dll                      imp.strrchr
+8   0x00227cfc 0x006294fc NONE FUNC 0    VCRUNTIME140.dll                      imp._except_handler4_common
+9   0x00227d00 0x00629500 NONE FUNC 0    VCRUNTIME140.dll                      imp.__std_type_info_compare
+10  0x00227d04 0x00629504 NONE FUNC 0    VCRUNTIME140.dll                      imp.__std_exception_copy
+11  0x00227d08 0x00629508 NONE FUNC 0    VCRUNTIME140.dll                      imp.memmove
+12  0x00227d0c 0x0062950c NONE FUNC 0    VCRUNTIME140.dll                      imp.__std_exception_destroy
+13  0x00227d10 0x00629510 NONE FUNC 0    VCRUNTIME140.dll                      imp.__std_terminate
+14  0x00227d14 0x00629514 NONE FUNC 0    VCRUNTIME140.dll                      imp.__CxxFrameHandler3
+15  0x00227d18 0x00629518 NONE FUNC 0    VCRUNTIME140.dll                      imp.__RTDynamicCast
+16  0x00227d1c 0x0062951c NONE FUNC 0    VCRUNTIME140.dll                      imp._CxxThrowException
+17  0x00227d20 0x00629520 NONE FUNC 0    VCRUNTIME140.dll                      imp._purecall
+1   0x00227f04 0x00629704 NONE FUNC 0    api-ms-win-crt-time-l1-1-0.dll        imp._localtime64_s
+2   0x00227f08 0x00629708 NONE FUNC 0    api-ms-win-crt-time-l1-1-0.dll        imp._time64
+3   0x00227f0c 0x0062970c NONE FUNC 0    api-ms-win-crt-time-l1-1-0.dll        imp.strftime
+4   0x00227f10 0x00629710 NONE FUNC 0    api-ms-win-crt-time-l1-1-0.dll        imp.clock
+1   0x00227e00 0x00629600 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._initterm
+2   0x00227e04 0x00629604 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._endthreadex
+3   0x00227e08 0x00629608 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._controlfp_s
+4   0x00227e0c 0x0062960c NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp.terminate
+5   0x00227e10 0x00629610 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._register_thread_local_exe_atexit_callback
+6   0x00227e14 0x00629614 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._c_exit
+7   0x00227e18 0x00629618 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._get_narrow_winmain_command_line
+8   0x00227e1c 0x0062961c NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._set_app_type
+9   0x00227e20 0x00629620 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._seh_filter_exe
+10  0x00227e24 0x00629624 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._errno
+11  0x00227e28 0x00629628 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._exit
+12  0x00227e2c 0x0062962c NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp.exit
+13  0x00227e30 0x00629630 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._initterm_e
+14  0x00227e34 0x00629634 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._invoke_watson
+15  0x00227e38 0x00629638 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp.system
+16  0x00227e3c 0x0062963c NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp.abort
+17  0x00227e40 0x00629640 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._configure_narrow_argv
+18  0x00227e44 0x00629644 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._initialize_narrow_environment
+19  0x00227e48 0x00629648 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._initialize_onexit_table
+20  0x00227e4c 0x0062964c NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._register_onexit_function
+21  0x00227e50 0x00629650 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._crt_atexit
+22  0x00227e54 0x00629654 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._cexit
+23  0x00227e58 0x00629658 NONE FUNC 0    api-ms-win-crt-runtime-l1-1-0.dll     imp._beginthreadex
+1   0x00227e60 0x00629660 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fsetpos
+2   0x00227e64 0x00629664 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.setvbuf
+3   0x00227e68 0x00629668 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fflush
+4   0x00227e6c 0x0062966c NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fputc
+5   0x00227e70 0x00629670 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fwrite
+6   0x00227e74 0x00629674 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fclose
+7   0x00227e78 0x00629678 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp._get_stream_buffer_pointers
+8   0x00227e7c 0x0062967c NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__stdio_common_vfprintf
+9   0x00227e80 0x00629680 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fgetpos
+10  0x00227e84 0x00629684 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.ungetc
+11  0x00227e88 0x00629688 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fgetc
+12  0x00227e8c 0x0062968c NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__stdio_common_vsprintf_s
+13  0x00227e90 0x00629690 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__stdio_common_vsprintf
+14  0x00227e94 0x00629694 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__acrt_iob_func
+15  0x00227e98 0x00629698 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp._getcwd
+16  0x00227e9c 0x0062969c NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp._set_fmode
+17  0x00227ea0 0x006296a0 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__p__commode
+18  0x00227ea4 0x006296a4 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fread
+19  0x00227ea8 0x006296a8 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fputs
+20  0x00227eac 0x006296ac NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.rewind
+21  0x00227eb0 0x006296b0 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.ftell
+22  0x00227eb4 0x006296b4 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fseek
+23  0x00227eb8 0x006296b8 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.fopen_s
+24  0x00227ebc 0x006296bc NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp._fseeki64
+25  0x00227ec0 0x006296c0 NONE FUNC 0    api-ms-win-crt-stdio-l1-1-0.dll       imp.__stdio_common_vsscanf
+1   0x00227d98 0x00629598 NONE FUNC 0    api-ms-win-crt-filesystem-l1-1-0.dll  imp._lock_file
+2   0x00227d9c 0x0062959c NONE FUNC 0    api-ms-win-crt-filesystem-l1-1-0.dll  imp._unlock_file
+3   0x00227da0 0x006295a0 NONE FUNC 0    api-ms-win-crt-filesystem-l1-1-0.dll  imp.remove
+1   0x00227ec8 0x006296c8 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.wcscpy_s
+2   0x00227ecc 0x006296cc NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.isdigit
+3   0x00227ed0 0x006296d0 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp._wcsicmp
+4   0x00227ed4 0x006296d4 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.isspace
+5   0x00227ed8 0x006296d8 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.iswspace
+6   0x00227edc 0x006296dc NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.strcspn
+7   0x00227ee0 0x006296e0 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.strncmp
+8   0x00227ee4 0x006296e4 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.isalpha
+9   0x00227ee8 0x006296e8 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.tolower
+10  0x00227eec 0x006296ec NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.toupper
+11  0x00227ef0 0x006296f0 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.wcslen
+12  0x00227ef4 0x006296f4 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp._wcsnicmp
+13  0x00227ef8 0x006296f8 NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp.wcscmp
+14  0x00227efc 0x006296fc NONE FUNC 0    api-ms-win-crt-string-l1-1-0.dll      imp._wcsupr
+1   0x00227d6c 0x0062956c NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp._strtoui64
+2   0x00227d70 0x00629570 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.strtoul
+3   0x00227d74 0x00629574 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.strtoll
+4   0x00227d78 0x00629578 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.atoi
+5   0x00227d7c 0x0062957c NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.strtod
+6   0x00227d80 0x00629580 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp._atoi64
+7   0x00227d84 0x00629584 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.strtoull
+8   0x00227d88 0x00629588 NONE FUNC 0    api-ms-win-crt-convert-l1-1-0.dll     imp.atof
+1   0x00227dc4 0x006295c4 NONE FUNC 0    api-ms-win-crt-locale-l1-1-0.dll      imp.localeconv
+2   0x00227dc8 0x006295c8 NONE FUNC 0    api-ms-win-crt-locale-l1-1-0.dll      imp.___lc_codepage_func
+3   0x00227dcc 0x006295cc NONE FUNC 0    api-ms-win-crt-locale-l1-1-0.dll      imp._configthreadlocale
+1   0x00227da8 0x006295a8 NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp._set_new_mode
+2   0x00227dac 0x006295ac NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp.free
+3   0x00227db0 0x006295b0 NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp.malloc
+4   0x00227db4 0x006295b4 NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp._msize
+5   0x00227db8 0x006295b8 NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp._callnewh
+6   0x00227dbc 0x006295bc NONE FUNC 0    api-ms-win-crt-heap-l1-1-0.dll        imp.realloc
+1   0x00227d90 0x00629590 NONE FUNC 0    api-ms-win-crt-environment-l1-1-0.dll imp._dupenv_s
+1   0x00227f18 0x00629718 NONE FUNC 0    api-ms-win-crt-utility-l1-1-0.dll     imp.rand
+1   0x00227dd4 0x006295d4 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._CIatan2
+2   0x00227dd8 0x006295d8 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp.__setusermatherr
+3   0x00227ddc 0x006295dc NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._libm_sse2_cos_precise
+4   0x00227de0 0x006295e0 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._libm_sse2_pow_precise
+5   0x00227de4 0x006295e4 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._libm_sse2_sin_precise
+6   0x00227de8 0x006295e8 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._libm_sse2_sqrt_precise
+7   0x00227dec 0x006295ec NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp.ceil
+8   0x00227df0 0x006295f0 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp.floor
+9   0x00227df4 0x006295f4 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp.roundf
+10  0x00227df8 0x006295f8 NONE FUNC 0    api-ms-win-crt-math-l1-1-0.dll        imp._dclass
